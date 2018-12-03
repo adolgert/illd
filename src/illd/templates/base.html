@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8">
+      <link href='{{ url_for("static", filename="bootstrap/css/bootstrap.css") }}' rel="stylesheet">
+      <link href='{{ url_for("static", filename="bootstrap/css/bootstrap.min.css") }}' rel="stylesheet">
+      <link href='{{ url_for("static", filename="css/normalize.css") }}' rel="stylesheet">
+      <link href='{{ url_for("static", filename="css/style.css") }}' rel="stylesheet">
+      <script src="http://code.jquery.com/jquery-latest.js"></script>
+      <script src="/static/bootstrap/js/bootstrap.min.js"></script>
+      {% block header %}{% endblock %}
+      <title>Illness-Death Visualization</title>
+  </head>
+  <body>
+    <div class="container header clearfix navbar-fixed-up navbar navbar-inverse">
+        <nav><ul class="nav nav-pills pull-right">
+                <li>Index</li>
+            </ul>
+        </nav>
+        <a class="navbar-brand" href="unknown">GIDM</a>
+    </div>
+      {% block content %}{% endblock %}
+
+  </body>
+</html>

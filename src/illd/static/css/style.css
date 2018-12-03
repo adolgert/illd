@@ -1,0 +1,60 @@
+/* DEBUGGING */
+* {
+    border: 0px solid red;
+}
+
+body {
+    padding-top: 98px;
+    padding-bottom: 20px;
+	padding-left: 15px;
+ 	padding-right: 15px;
+	margin: 20px;
+    color: #2e2e2e;
+    background-color: #dddddd;
+    font: 16px/24px "Helvetica Neue", Arial, sans-serif;
+}
+
+/* HEADER AND NAV BAR */
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 24px;
+}
+
+.header {
+    height: 90px;
+    padding: 0;
+    width: 100%;
+}
+
+.navbar-brand {
+    font-size: 34px;
+    margin: 20px;
+    font-family: platino, ‘Book Antiqua’, Georgia, Garamond, ‘Times New Roman’, Times, serifTimes, serif
+}
+
+.navbar-brand:hover {
+    color: #66CC00!important;
+}
+
+.nav li {
+    padding-top: 24px;
+    margin: 0;
+    margin-right: 24px;
+}
+
+.nav li.active a {
+    background-color: #444 !important;
+}
+
+.nav li a {
+    font-size: 16px !important;
+	color: #9d9d9d !important;
+}
+
+nav .nav a:hover {
+    color: #66CC00 !important;
+    background-color: #444 !important;
+}

@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block header %}
+    {{ js_resources|safe }}
+    {{ css_resources|safe }}
+    {{ plot_script|safe }}
+{% endblock %}}
+
+{% block content %}
+<div>
+    <h1>Natural</h1>
+    {{ plot_div|safe }}
+</div>
+URI is {{ uri|safe }}
+{% endblock %}
